@@ -3,9 +3,9 @@ def find_min_in_nested_arrays(src)
    row_index = 0
    while row_index < src.count do
      element_index = 0
-     min_string_element = ""
+     min_string_element = []
      while element_index < src.count do
-       if src[row_index][element_index].length > min_string_elemen.length
+       if src[row_index][element_index].sort > min_string_elemen.sort
          min_string_element = src[row_index][element_index]
 end
 element_index += 1
