@@ -12,4 +12,5 @@ element_index += 1
 end
  outer_results << min_string_element
  row_index += 1
- end 
+ end
+end 
